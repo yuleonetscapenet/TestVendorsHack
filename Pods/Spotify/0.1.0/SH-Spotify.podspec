@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage         = 'http://www.stubhub.com'
   s.author           = '3rd Party'
-  s.source           = { :git => "git@github.com:stubhub/native-ios-vendor-deps.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/yuleonetscapenet/TestVendorsHack.git", :tag => "#{s.version}" }
   s.platform         = :ios, '10.0'
   s.vendored_frameworks = 'SH-Spotify/SpotifyAuthentication.framework', 'SH-Spotify/SpotifyMetadata.framework'
 end
