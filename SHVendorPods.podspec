@@ -18,4 +18,9 @@ Pod::Spec.new do |s|
     veritix.vendored_frameworks = "Pods/Veritix/AXSSDKMobile.framework"
   end
 
+s.subspec 'Simility' do |simility|
+    simility.source_files = "Pods/Simility/*.h"
+    simility.vendored_library = "Pods/Simility/libSimilityRecon.a"
+  end
+
 end
