@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   Dummy text to silence license warning :)
   LICENSE
 }
-  s.homepage         = 'https://www.stubhub.com'
+  s.homepage         = 'https://www.github.com'
   s.author           = '3rd Parties'
   s.source           = { :git => "https://github.com/yuleonetscapenet/TestVendorsHack.git",
                         :tag => "#{s.version}"
