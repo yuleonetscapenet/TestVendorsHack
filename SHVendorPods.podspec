@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'SHVendorPods'
+  s.name             = 'LeoYuVendorPods'
   s.version          = '0.1.0'
   s.summary          = '3rd party libs without CocoaPods support.'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
